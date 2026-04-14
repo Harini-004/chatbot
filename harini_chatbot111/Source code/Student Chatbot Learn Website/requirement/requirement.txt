@@ -1,0 +1,9 @@
+Only use this version of anaconda
+https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86_64.exe
+
+numpy = 1.23.5
+tensorflow
+keras
+opencv
+flask
+streamlit

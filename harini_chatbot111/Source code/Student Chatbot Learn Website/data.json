@@ -1,0 +1,649 @@
+{
+        "intents": [
+                
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon",
+                                "Bye!"
+                        ],
+                        "image": "static/images/thankyou.jpg",
+                        
+                        "context_set": ""
+                },
+                
+               
+               
+                
+                
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you !",
+                                "Hi there, how can I help?"
+                        ],
+                        "image": "static/images/welcome.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "fsh",
+"patterns": [
+
+        
+        "Tell me about SRM Faculty of Science and Humanities",
+        "What is SRM FSH",
+        "Information about SRM FSH",
+        "What are the features of FSH SRM",
+        "Describe the Faculty of Science and Humanities"
+    ],
+    "responses": [
+        "SRM Faculty of Science and Humanities (FSH) is one of the core faculties of SRMIST, offering programs in Computer Applications, Commerce, English, Mathematics, and other disciplines.",
+        "FSH focuses on academic excellence, research, and holistic student development through workshops, projects, and industry exposure.",
+        "The Faculty of Science and Humanities provides undergraduate and postgraduate programs across multiple streams including Science, Arts, and Commerce."
+    ],
+    "image": "static/images/faculty.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "you can call me student bot.",
+                                "I'm student bot",
+                                "I'm SRM University's Student Chatbot."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open from 9AM to 5PM, Monday to Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "contact",
+ 
+    "patterns": [
+        "Where can I find more details?",
+        "Give me the official website of SRM FSH",
+        "How to contact the department?",
+        "Is there any website link for SRM Faculty of Science and Humanities?"
+    ],
+    "responses": [
+        "You can visit the official website for more details: https://www.srmist.edu.in/faculty-of-science-humanities/",
+        "For more information, check SRMIST's official FSH webpage.",
+        "You can reach out to the Faculty of Science and Humanities through the SRMIST website."
+    ],
+
+
+                        "image": "static/images/thankyou.jpg",
+
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+    "patterns": [
+        "What courses are offered in SRM FSH?",
+       
+        
+        
+        "Which PG courses are available?"
+    ],
+    "responses": [
+        
+        
+        "SRM FSH provides  undergraduate, postgraduate programs and Ph.D. programs with a focus on Computer Applications, data science, AI, and emerging technologies."
+    ],
+                        "image": "static/images/course.jpg",
+                        "context_set": ""
+                },
+                
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "SRM Nagar, Kattankulathur, chengalpattu - 603 203 "
+                        ],
+                        "image":"static/images/location.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+                                "The University has separate hostels for boys and girls . <br><br> Girls: ESQ A & B, Shenbagam, Kalpana Chawla, Meenakshi, and Dental Ladies Hostel (for Dental students). <br><br> Boys: Sannasi A & C, Paari, Oori, Adiyaman, Nelson Mandela, and Green Pearl.<br<br"
+                        ],
+                         "image":"static/images/mens_hostel.jpg",
+                         
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        
+   
+    "patterns": [
+        "What events are conducted in college?",
+        "Tell me about the events in SRM FSH",
+        "Any workshops or fests happening?",
+        "List some technical events in our department",
+        "Does SRM FSH host conferences?",
+        "What kind of programs are organized?",
+        "Any recent events in the Department of Computer Applications?"
+    ],
+    "responses": [
+        "The Department of Computer Applications at SRM Faculty of Science and Humanities organizes regular events such as technical workshops on AI, IoT, and Python, national-level conferences, alumni talks, industrial visits, and annual college fests.",
+        "Our faculty conducts interdisciplinary seminars, workshops, and hackathons to encourage innovation and collaboration among students.",
+        "Various technical, cultural, and academic events are hosted every semester at SRM FSH — including expert talks, symposiums, and hands-on training sessions."
+    ],
+"image": "static/images/events.jpg",
+
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                        ],
+                        "responses": [
+                                "To know more about Undergraduate program document required visit  here</a> <br><br>",
+                                "To know more about Graduate program document required visit  here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "campus",
+"patterns": [
+        "Tell me about campus life at SRM FSH",
+        "How is student life in SRM Faculty of Science and Humanities?",
+        "What activities are available for students at FSH?",
+        "Campus environment and student clubs at SRM FSH",
+        "Information about cultural and extracurricular activities in FSH"
+    ],
+    "responses": [
+        "Campus life at SRM FSH is vibrant with academic, cultural, and sports activities to support holistic development <br><br>Students can participate in clubs, workshops, seminars, and events organized by SRM FSH to enhance learning and extracurricular skills."
+        
+    ],
+    "image": "static/images/campus.jpg",
+                        "context_set": ""
+                },
+
+                {
+        
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "ry",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "SRM University Library aims to serve the needs of students, faculty and staff members of the library. The library at SRM Institute of Science and Technology (SRMIST) in Kattankulathur is a large, modern, and well-equipped facility. It is one of the premier university libraries in India, with a floor area of 1.5 lakh sq ft.<br><br>For more information visit in college </a>"
+                        ],
+                        "image": "static/images/lib.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "how is college infrastructure",
+                                "infrastructure",
+                                "college infrastructure"
+                        ],
+                        "responses": [
+                                "SRM University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection."     
+                        ],
+                        "image": "static/images/infra.jpg",
+                        
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "SRM University has canteens like SRMIST canteen, Library Canteen, JAVA canteen, Slice canteen, Dental Canteen, Resturants, Hotels with variety of food available"
+                        ],
+                        "image": "static/images/canteen.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "timetable",
+                                "Time table",
+                                "timetable of msc ads II A"
+                                
+                                
+                        ],
+                        "responses": [
+                                "Time table of M.sc ADS II A"
+                        ],
+                        "image": "static/images/time.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+    "patterns": [
+        "Tell me about SRM FSH placements",
+        "What are the placement opportunities in SRM Faculty of Science and Humanities?",
+        "How is the placement record of SRM FSH?",
+        "Where can I find information on SRM FSH placements?",
+        "Details about placement cell at SRM FSH"
+    ],
+    "responses": [
+        "The Faculty of Science and Humanities (FSH) at SRMIST has a dedicated placement cell that supports students in securing internships and jobs.",
+        
+        "SRM FSH students are guided by the placement cell to prepare for industry opportunities and campus drives."
+    ],
+    "image": "static/images/placement.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "cshod",
+                        "patterns": [
+                                "Who is CS HOD",
+                                "Where is CS HOD",
+                                "cs hod",
+                                "computer science hod",
+                                "name of cs hod"
+                        ],
+                        "responses": [
+                                "Dr. R. Jayashree is CA HOD who is available on 6th Floor of FSH I or you can reach out to them at hod.dca.ktr@srmist.edu.in"
+                        ],
+                        "context_set": ""
+                },
+  
+                {
+                        "tag": "sem",
+                        "patterns": [
+                                "exam dates",
+                                "exam schedule",
+                                "When is semester exam",
+                                "Semester exam ",
+                                "sem",
+                                "semester",
+                                "exam",
+                                "when is exam",
+                                "exam ",
+                                "exam dates",
+                                "when is semester"
+                        ],
+                        "responses": [
+                                " To collect the Academic Calendar visit College"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+    "patterns": [
+        "How can I apply for SRM FSH?",
+        "Tell me about the admission process at SRM Faculty of Science and Humanities",
+        "What are the eligibility criteria for SRM FSH?",
+        "How do I get admission in SRM FSH?",
+        "Admission details for SRM FSH"
+    ],
+    "responses": [
+        "You can apply for SRM FSH through the official SRMIST admission portal: https://www.srmist.edu.in/admissions",
+        "The admission process includes submitting an application online, meeting eligibility criteria, and possibly attending counseling or interviews.",
+        "For detailed eligibility and procedure, visit the official SRMIST admission page for FSH programs."
+    ],
+    "image": "static/images/addmission.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "SRM University provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+                        ],
+                        "image": "static/images/lab.jpg",
+
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                           "patterns": [
+        "What is the intake for SRM FSH B.Sc and BCA courses?",
+        "How many students are admitted in SRM FSH each year?",
+        "Tell me the seat capacity for FSH undergraduate programs",
+        "Number of seats in SRM FSH for B.Com, B.Sc, BCA",
+        "Student intake for SRM FSH courses"
+    ],
+    "responses": [
+        "For the academic year, SRM FSH admits approximately: B.Sc – 120 seats, B.Com – 180 seats, BCA – 120 seats per program.",
+        "SRM Faculty of Science and Humanities has a structured intake per course to maintain quality education. Detailed intake info is available on the official website: https://www.srmist.edu.in/faculty-of-science-humanities/",
+        "The FSH programs at SRMIST have fixed seat capacity per course to ensure personalized attention and effective learning."
+    ],
+    "image": "static/images/intake.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "What is the dress code at SRM FSH?",
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "SRM FSH students are expected to follow the SRMIST dress code which includes formal or semi-formal attire. Uniforms may be required for certain programs or events."
+                        ],
+                        "image": "static/images/dress.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "committee",
+                        "patterns": [
+        "Tell me about committees in SRM FSH",
+        "Which committees are active at SRM Faculty of Science and Humanities?",
+        "Information on student and faculty committees in FSH",
+        "What are the committees in SRM FSH?",
+        "Details about FSH committees and their roles"
+    ],
+    "responses": [
+        "SRM FSH has various committees including the Academic Committee, Cultural Committee, Sports Committee, and Placement Committee to support students and faculty activities.",
+        "The Faculty of Science and Humanities encourages student participation through committees like the Academic Council, Library Committee, and Events Committee.",
+        "For detailed roles and current members of FSH committees, you can check the official SRMIST FSH page: https://www.srmist.edu.in/faculty-of-science-humanities/"
+    ],
+    "image": "static/images/committees.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "Data Mining",
+                        "patterns": [
+                                
+                                "What is data mining"
+                        ],
+                        "responses": [
+                                "Data mining is the process of extracting and discovring patterns of etracting and discovering patterns in large data sets involving methods at the intersection of machine learning, statistics."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Data Science",
+                        "patterns": [
+                                "What is data science"
+                        ],
+                        "responses": [
+                                "Data science is the study of data to extract meaningful insights for business"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Java",
+                        "patterns": [
+                                "What is Java"
+                        ],
+                        "responses": [
+                                "Java is widely used object-oriented programming language and software platform"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank you",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding college",
+                                "you can ask me questions regarding college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                           "patterns": [
+        "Is ragging allowed in SRM FSH?",
+        "Tell me about anti-ragging rules in SRM Faculty of Science and Humanities",
+        "What is SRM FSH policy on ragging?",
+        "How does SRM FSH prevent ragging?",
+        "Ragging complaints in SRM FSH"
+    ],
+    "responses": [
+        "Ragging is strictly prohibited at SRM FSH and SRMIST under the UGC and AICTE regulations.",
+        "SRM FSH has a zero-tolerance policy towards ragging. Any complaints can be reported to the Anti-Ragging Cell of the university."
+        
+    ],
+    "image": "static/images/ragging.jpg",
+                        "context_set": ""
+
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (HOD it)"
+                        ]
+                },
+                {
+                        "tag":"transport",
+                            "patterns": [
+        "Tell me about transport facilities in SRM FSH",
+        "How can I commute to SRM Faculty of Science and Humanities?",
+        "Is there a bus service for SRM FSH students?",
+        "Transport options available at SRM FSH",
+        "How do I reach SRM FSH campus?"
+    ],
+    "responses": [
+        "SRM FSH provides transportation facilities including university buses connecting major areas nearby.",
+        "Students can use SRMIST shuttle services or public transport to reach the Faculty of Science and Humanities campus."
+       
+    ],
+    "image": "static/images/transport.jpg",
+                        "context_set": ""
+                },
+                {
+                        "tag": "metro",
+                        "patterns":[
+                                "nearest railway station",
+                                "what is the nearest railway station",
+                                "which railway station is near",
+                                "closest railway station",
+                                "which railway station is closest",
+                                "nearby railway stations",
+                                "railway",
+                                "railway station nearby"
+                        ],
+                        "responses":[
+                                "potheri station"
+                        ],
+                        "image": "static/images/potheri.jpg"
+                },
+                {
+                        "tag": "scholarships",
+                        "patterns":[
+                                "scholarships",
+                                "what scholarships does the college provide",
+                                "name of available scholarships",
+                                "can i apply for scholarships",
+                                "scholarships availability",
+                                "scholarships application",
+                                "scholarship"
+                        ],
+                        "responses":[
+                                "SRM Institute of Science and Technology (SRMIST) in Kattankulathur offers a wide range of scholarships based on merit in entrance exams, academic performance, and special categories. The scholarships can provide waivers of 25% to 100% on tuition fees.For specific details, including the application process for the next academic year, prospective students can contact the admissions office at SRMIST Kattankulathur.<br>Contact Information <br><br>Phone: +91-8069087000 <br><br>Email: infodesk@srmist.edu.in .<br><br><b> "
+                        ]
+                },			
+                {
+                        "tag": "noanswer",
+                        "patterns":[],
+                        "responses":[
+                                "Sorry I can't understand you."
+                        ]
+                }
+                
+        ]
+}
